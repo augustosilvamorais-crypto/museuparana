@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #111827;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+nav a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #1e3a8a, #0f172a);
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.section {
+  padding: 50px 20px;
+}
+
+.dark {
+  background: #111827;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.player {
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.chat-box {
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#mensagens {
+  height: 150px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+}
