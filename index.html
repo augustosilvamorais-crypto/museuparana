@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Professor IA - Plataforma de Aprendizado</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header>
+  <div class="logo">Professor IA</div>
+  <nav>
+    <a href="#curso">Curso</a>
+    <a href="#aulas">Aulas</a>
+    <a href="#chat">Chat IA</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Aprenda com um Professor IA Humanizado</h1>
+  <p>Uma experiência de aprendizado moderna, simples e interativa.</p>
+  <button onclick="iniciarCurso()">Começar agora</button>
+</section>
+
+<section id="curso" class="section">
+  <h2>Módulos do Curso</h2>
+  <div class="cards">
+    <div class="card">Introdução à IA</div>
+    <div class="card">Redes Neurais</div>
+    <div class="card">Machine Learning</div>
+    <div class="card">IA Generativa</div>
+  </div>
+</section>
+
+<section id="aulas" class="section dark">
+  <h2>Aula Atual</h2>
+  <div class="player">
+    <p id="textoAula">Clique em iniciar para começar a aula.</p>
+    <button onclick="falarAula()">🔊 Ouvir Professor IA</button>
+  </div>
+</section>
+
+<section id="chat" class="section">
+  <h2>Chat com IA</h2>
+  <div class="chat-box">
+    <div id="mensagens"></div>
+    <input id="inputChat" placeholder="Pergunte algo..."/>
+    <button onclick="enviarMensagem()">Enviar</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Professor IA - Todos os direitos reservados</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
